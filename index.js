@@ -53,3 +53,9 @@ function playSound(key){
       break;
   }
 }
+
+function buttonAnimation(pressedKey) {
+    var pressedKey = document.querySelector('.'+ pressedKey);
+    pressedKey.classList.add(pressed);
+    
+}
